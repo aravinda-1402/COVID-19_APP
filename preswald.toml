@@ -1,0 +1,20 @@
+[project]
+title = "COVID-19 Global Insights Dashboard"
+version = "1.0.0"
+port = 8501
+slug = "covid-dashboard"
+entrypoint = "hello.py"
+
+[branding]
+name = "🦠 COVID-19 Insights"
+logo = "images/covid-logo.png"
+favicon = "images/covid-icon.ico"
+primaryColor = "#1F77B4"
+
+[data.covid_csv]
+type = "csv"
+path = "data/covid.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
