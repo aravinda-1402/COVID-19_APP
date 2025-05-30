@@ -21,4 +21,3 @@ A streamlined data dashboard built using **Preswald SDK** to visualize and explo
 - **Preswald SDK**
 - **Python** with **Pandas**
 - **Plotly Express** for charting
-\
